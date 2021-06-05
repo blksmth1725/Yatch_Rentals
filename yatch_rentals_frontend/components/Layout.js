@@ -1,9 +1,12 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import Header from "./Header";
 import Footer from "./Footer";
+import Banner from "./Banner";
 import styles from "@/styles/Layout.module.css";
 
 export default function Layout({ title, keywords, description, children }) {
+  const router = useRouter();
   return (
     <div>
       <Head>
@@ -13,6 +16,7 @@ export default function Layout({ title, keywords, description, children }) {
       </Head>
 
       <Header />
+      {router.pathname === "/" && <Banner />}
       <div className={styles.container}>{children}</div>
       <Footer />
     </div>
