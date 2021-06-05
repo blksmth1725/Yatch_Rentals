@@ -1,7 +1,9 @@
+import Layout from "../../components/Layout";
+
 export default function Boat() {
   return (
-    <div>
+    <Layout>
       <h1>This a "Dynamic" individual Boat display</h1>
-    </div>
+    </Layout>
   );
 }
