@@ -13,7 +13,7 @@
       "image": "/images/sample/Azumut_S6.jpg"
     },
     {
-      "id": "1",
+      "id": "2",
       "name": "La Niña",
       "slug": "Azimut-Atlantis",
       "make": "Azimut",
@@ -22,31 +22,30 @@
       "description": "Sporty, high-performing and dynamic, to experience the sea in a truly&nbsp;unique way. Atlantis is a versatile sports cruiser for those who love chasing&nbsp;the waves and seeking the true trill of life at sea. Great cruising ease,&nbsp;the ideal balance between quality and safety, the perfect alchemy of&nbsp;beauty and functionality: and all in large, welcoming spaces and meticulously&nbsp;planned interiors in line the best Italian design.",
       "rate": "300 p/h",
       "capacity": "12",
-      "image": "/images/sample/Azumut_S6.jpg"
+      "image": "/images/sample/Azumut_Atlantis_45.jpg"
     },
     {
-      "id": "1",
-      "name": "Bella",
-      "slug": "Azimut-S6",
+      "id": "3",
+      "name": "Sofia",
+      "slug": "Azimut-Grande-100",
       "make": "Azimut",
-      "model": "S6",
-      "length": "70 ft",
-      "description": "The S Collection blends a sporty look with elegance thanks to innovative high-tech solutions and high performance material for desirable, technological yachts. The stylistic high point of the collection is the dynamic bow cap while aboard, the huge open spaces create a sense of constant dialogue between the interior and exterior for unrivalled comfort and luxury.",
-      "rate": "400 p/h",
-      "capacity": "12",
-      "image": "/images/sample/Azumut_S6.jpg"
+      "model": "Grande 37 METRI",
+      "length": "100 ft",
+      "description": "A streamlined yacht that seems sculpted in wind, with ample space for life in the open air, to keep the connection with the sea alive.",
+      "capacity": "25",
+      "image": "/images/sample/Azumut_Grande_100.jpg"
     },
     {
-      "id": "1",
-      "name": "La Niña",
-      "slug": "Azimut-Atlantis",
-      "make": "Azimut",
-      "model": "Atlantis-45",
-      "length": "45 ft",
-      "description": "Sporty, high-performing and dynamic, to experience the sea in a truly&nbsp;unique way. Atlantis is a versatile sports cruiser for those who love chasing&nbsp;the waves and seeking the true trill of life at sea. Great cruising ease,&nbsp;the ideal balance between quality and safety, the perfect alchemy of&nbsp;beauty and functionality: and all in large, welcoming spaces and meticulously&nbsp;planned interiors in line the best Italian design.",
-      "rate": "300 p/h",
-      "capacity": "12",
-      "image": "/images/sample/Azumut_S6.jpg"
+      "id": "4",
+      "name": "Seas the Day",
+      "slug": "Sunseeker-68",
+      "make": "Sunseeker",
+      "model": "Manhattan-68",
+      "length": "68 ft",
+      "description": "Building on the exceptional family of award-winning Manhattan models, this new addition to the range has been designed to offer exceptional levels of comfort and luxury with incredible detailing.",
+      "rate": "350 p/h",
+      "capacity": "14",
+      "image": "/images/sample/Manhattan_68.jpg"
     },
     {
       "id": "1",
