@@ -10,7 +10,7 @@
       "description": "The S Collection blends a sporty look with elegance thanks to innovative high-tech solutions and high performance material for desirable, technological yachts. The stylistic high point of the collection is the dynamic bow cap while aboard, the huge open spaces create a sense of constant dialogue between the interior and exterior for unrivalled comfort and luxury.",
       "rate": "400 p/h",
       "capacity": "12",
-      "image": "/images/sample/Azumut_S6.jpg"
+      "image": "/images/sample/Azimut_S6.jpeg"
     },
     {
       "id": "2",
@@ -22,7 +22,7 @@
       "description": "Sporty, high-performing and dynamic, to experience the sea in a truly&nbsp;unique way. Atlantis is a versatile sports cruiser for those who love chasing&nbsp;the waves and seeking the true trill of life at sea. Great cruising ease,&nbsp;the ideal balance between quality and safety, the perfect alchemy of&nbsp;beauty and functionality: and all in large, welcoming spaces and meticulously&nbsp;planned interiors in line the best Italian design.",
       "rate": "300 p/h",
       "capacity": "12",
-      "image": "/images/sample/Azumut_Atlantis_45.jpg"
+      "image": "/images/sample/Azimut_Atlantis_45.jpeg"
     },
     {
       "id": "3",
@@ -33,7 +33,7 @@
       "length": "100 ft",
       "description": "A streamlined yacht that seems sculpted in wind, with ample space for life in the open air, to keep the connection with the sea alive.",
       "capacity": "25",
-      "image": "/images/sample/Azumut_Grande_100.jpg"
+      "image": "/images/sample/Azimut_Grande_100.jpeg"
     },
     {
       "id": "4",
@@ -45,7 +45,7 @@
       "description": "Building on the exceptional family of award-winning Manhattan models, this new addition to the range has been designed to offer exceptional levels of comfort and luxury with incredible detailing.",
       "rate": "350 p/h",
       "capacity": "14",
-      "image": "/images/sample/Manhattan_68.jpg"
+      "image": "/images/sample/Manhattan_68.jpeg"
     },
     {
       "id": "5",
@@ -57,7 +57,7 @@
       "description": "TNever one to rest on their laurels and following several years of speculation, Sunseeker announces the forthcoming launch of a brand new high performance day boat – the Hawk 38.",
       "rate": "150 p/h",
       "capacity": "4",
-      "image": "/images/sample/Sunseeker_Hawk_38.jpg"
+      "image": "/images/sample/Sunseeker_Hawk_38.jpeg"
     },
     {
       "id": "5",
@@ -69,7 +69,7 @@
       "description": "Stunningly crafted to perfectly balance style with practicality, the Predator 60 EVO™ is the first model of Sunseeker’s major new product development plan with innovative stand out features and a truly sophisticated interior design",
       "rate": "300 p/h",
       "capacity": "16",
-      "image": "/images/sample/Sunseeker_Predator_60.jpg"
+      "image": "/images/sample/Sunseeker_Predator_60.jpeg"
     },
     {
       "id": "7",
@@ -81,7 +81,7 @@
       "description": "The Carver C34 Coupe was designed for a new generation of boaters. Boaters who want bold styling, an expansive interior layout, plus renowned Carver comfort and seaworthiness. All in a compact package that’s easy to handle and offers outstanding performance.",
       "rate": "250 p/h",
       "capacity": "8",
-      "image": "/images/sample/Carver_C34.jpg"
+      "image": "/images/sample/Carver_C34.jpeg"
     },
     {
       "id": "8",
@@ -93,7 +93,7 @@
       "description": "The new Carver 52 Command Bridge offers three staterooms and two heads in one of the most spacious layouts of any boat in its class.",
       "rate": "350 p/h",
       "capacity": "15",
-      "image": "/images/sample/Carver_Command_C52.jpg"
+      "image": "/images/sample/Carver_Command_C52.jpeg"
     },
     {
       "id": "9",
@@ -105,7 +105,7 @@
       "description": "The 40 Open Sunreef Power is equipped with dynamic inboard propulsion ranging from 2x435 HP to 2x860 HP to offer an impressive speed potential of over 60kts.",
       "rate": "200 p/h",
       "capacity": "6",
-      "image": "/images/sample/Sunreef_Open_40.jpg"
+      "image": "/images/sample/Sunreef_Open_40.jpeg"
     },
     {
       "id": "10",
@@ -117,7 +117,7 @@
       "description": "The Sunreef 50 is an all-around compact sailing yacht ideal for exclusive getaways, charter and transoceanic adventures. Her clever bridge deck and superstructure design allow for a superior level of comfort onboard whereas the generous teak use, high bulwarks and classy lines underscore her modern style with a classic edge.",
       "rate": "600 p/h",
       "capacity": "15",
-      "image": "/images/sample/Sunreef_50.jpg"
+      "image": "/images/sample/Sunreef_50.jpeg"
     }
   ]
 }

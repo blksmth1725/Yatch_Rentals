@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import BoatItem from "@/components/BoatItem";
 import { API_URL } from "@/config/index";
 
 export default function BoatsPage({ boats }) {
@@ -6,9 +7,11 @@ export default function BoatsPage({ boats }) {
 
   return (
     <Layout>
-      <h1>
-        Here we will display all the boats to both Public and Private Users
-      </h1>
+      <h1>Check out our Fleet!</h1>
+      {boats.length === 0 && <h3>No boats to rent</h3>}
+      {boats.map((boat) => (
+        <BoatItem key={boat.id} boat={boat} />
+      ))}
     </Layout>
   );
 }

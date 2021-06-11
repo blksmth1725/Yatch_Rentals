@@ -1,7 +1,7 @@
 .banner {
   height: 300px;
   width: 100%;
-  background: #000 url("/images/boatbanner.jpg") no-repeat center center;
+  background: #000 url("/images/boatbanner.jpeg") no-repeat center center;
   color: #fff;
   position: relative;
   display: flex;
