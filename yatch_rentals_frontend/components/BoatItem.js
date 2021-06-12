@@ -7,15 +7,23 @@ export default function BoatItem({ boat }) {
   return (
     <div className={styles.boat}>
       <div className={styles.img}>
-        <Image src={boat.image} width={170} height={100} />
+        <Image src={boat.image} width={170} height={120} />
       </div>
 
       <div className={styles.info}>
-        <h3>{boat.name}</h3>
+        <h3 className={styles.boat_name}>{boat.name}</h3>
         <div className={styles.span}>
           <span>Make: {boat.make}</span>
           <span>Model: {boat.model}</span>
           <span>Length: {boat.length}</span>
+        </div>
+      </div>
+
+      <div className={styles.details_btn}>
+        <div className={styles.link}>
+          <Link href={`/boats/${boat.slug}}`}>
+            <a className="btn">Details</a>
+          </Link>
         </div>
       </div>
     </div>
