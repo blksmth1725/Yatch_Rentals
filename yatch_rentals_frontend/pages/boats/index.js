@@ -3,8 +3,6 @@ import BoatItem from "@/components/BoatItem";
 import { API_URL } from "@/config/index";
 
 export default function BoatsPage({ boats }) {
-  console.log(boats);
-
   return (
     <Layout>
       <h1>Check out our Fleet!</h1>
