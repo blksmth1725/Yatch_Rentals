@@ -12,8 +12,7 @@ export default function Boat({ boat }) {
 
 export async function getServerSideProps({ query: { slug } }) {
   const res = await fetch(`${API_URL}/api/boats/${slug}`);
-
-  const boats = await res.json();
+  const boats = JSON.stringify(await res.json());
   return {
     props: {
       boat: boats[0],
