@@ -6,8 +6,13 @@ export default function BoatItem({ boat }) {
   console.log(boat.slug);
   return (
     <div className={styles.boat}>
-      <div className={styles.img}>
-        <Image src={boat.image} width={170} height={120} />
+      <div className={styles.image_container}>
+        <Image
+          className={styles.image}
+          src={boat.image}
+          width={190}
+          height={160}
+        />
       </div>
 
       <div className={styles.info}>

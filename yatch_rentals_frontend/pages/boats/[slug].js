@@ -21,6 +21,17 @@ export default function Boat({ boat }) {
             <FaTimes className={styles.times_icon} /> Delete Boat
           </a>
         </div>
+        <h1>{boat.name}</h1>
+        {boat.image && (
+          <div className={styles.image}>
+            <Image
+              className={styles.image}
+              src={boat.image}
+              width={960}
+              height={600}
+            />
+          </div>
+        )}
       </div>
     </Layout>
   );
