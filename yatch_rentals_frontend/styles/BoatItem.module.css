@@ -21,14 +21,24 @@
 }
 
 .span {
+  gap: 6px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .info {
+  flex: 3;
+  padding-left: 30px;
 }
 .details_btn {
+  margin-top: 110px;
+  padding-right: 20px;
+  border-radius: 30px;
 }
 
 .boat_name {
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {

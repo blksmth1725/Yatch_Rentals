@@ -25,11 +25,9 @@ export default function BoatItem({ boat }) {
       </div>
 
       <div className={styles.details_btn}>
-        <div className={styles.link}>
-          <Link href={`/boats/${boat.slug}`}>
-            <a className="btn">Details</a>
-          </Link>
-        </div>
+        <Link href={`/boats/${boat.slug}`}>
+          <a className="btn">Details</a>
+        </Link>
       </div>
     </div>
   );
