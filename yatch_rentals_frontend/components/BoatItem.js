@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/BoatItem.module.css";
 
 export default function BoatItem({ boat }) {
+  console.log(boat.slug);
   return (
     <div className={styles.boat}>
       <div className={styles.img}>
@@ -20,7 +21,7 @@ export default function BoatItem({ boat }) {
 
       <div className={styles.details_btn}>
         <div className={styles.link}>
-          <Link href={`/boats/${boat.slug}}`}>
+          <Link href={`/boats/${boat.slug}`}>
             <a className="btn">Details</a>
           </Link>
         </div>

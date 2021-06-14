@@ -1,5 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-const { boats } = require("./data.json");
+import data from "./data.json";
+const { boats } = data;
 
 export default (req, res) => {
   if (req.method === "GET") {
