@@ -1,13 +1,27 @@
+import { FaPencilAlt, FaTimes } from "react-icons/fa";
 import Layout from "@/components/Layout";
+import Link from "next/link";
 import Image from "next/image";
 import { API_URL } from "@/config/index";
+import styles from "@/styles/Boat.module.css";
 
 export default function Boat({ boat }) {
+  const deleteBoat = console.log("DELETED");
+
   return (
     <Layout>
-      <h1>This is supposed to be a single boat</h1>
-      {boat.name}
-      <Image src={boat.image} width={170} height={120} />
+      <div className={styles.boat}>
+        <div className={styles.controls}>
+          <Link href={`/boats/edit/${boat.id}`}>
+            <a>
+              <FaPencilAlt /> Edit Boat
+            </a>
+          </Link>
+          <a href="#" className={styles.delete} onClick={deleteBoat}>
+            <FaTimes className={styles.times_icon} /> Delete Boat
+          </a>
+        </div>
+      </div>
     </Layout>
   );
 }
