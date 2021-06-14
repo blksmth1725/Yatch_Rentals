@@ -11,27 +11,45 @@ export default function Boat({ boat }) {
   return (
     <Layout>
       <div className={styles.boat}>
-        <div className={styles.controls}>
-          <Link href={`/boats/edit/${boat.id}`}>
-            <a>
-              <FaPencilAlt /> Edit Boat
+        <div className={styles.header}>
+          <h1>{boat.name}</h1>
+          <div className={styles.controls}>
+            <Link href={`/boats/edit/${boat.id}`}>
+              <a>
+                <FaPencilAlt /> Edit Boat
+              </a>
+            </Link>
+            <a href="#" className={styles.delete} onClick={deleteBoat}>
+              <FaTimes className={styles.times_icon} /> Delete Boat
             </a>
-          </Link>
-          <a href="#" className={styles.delete} onClick={deleteBoat}>
-            <FaTimes className={styles.times_icon} /> Delete Boat
-          </a>
+          </div>
         </div>
-        <h1>{boat.name}</h1>
         {boat.image && (
           <div className={styles.image}>
             <Image
-              className={styles.image}
+              className={styles.image_jpeg}
               src={boat.image}
               width={960}
               height={600}
             />
           </div>
         )}
+
+        <div className={styles.info_container_toplevel}>
+          <div className={styles.info_packet_container}>
+            <h3 className={styles.h3}>Description</h3>
+            <span>{boat.description}</span>
+          </div>
+
+          <div className={styles.info_packet_container}>
+            <h3 className={styles.h3}>Specifications</h3>
+            <div className={styles.span}>
+              <span>Make: {boat.make}</span>
+              <span>Model: {boat.model}</span>
+              <span>Length: {boat.length}</span>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
