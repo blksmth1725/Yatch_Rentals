@@ -35,18 +35,44 @@ export default function Boat({ boat }) {
           </div>
         )}
 
+        <div className={styles.rate_container}>
+          <h3>Rate:</h3>
+          <div>
+            <span>{boat.rate}++</span>
+          </div>
+        </div>
+
         <div className={styles.info_container_toplevel}>
           <div className={styles.info_packet_container}>
-            <h3 className={styles.h3}>Description</h3>
             <span>{boat.description}</span>
           </div>
-
           <div className={styles.info_packet_container}>
-            <h3 className={styles.h3}>Specifications</h3>
-            <div className={styles.span}>
-              <span>Make: {boat.make}</span>
-              <span>Model: {boat.model}</span>
-              <span>Length: {boat.length}</span>
+            <h3 className={styles.h3}>Sepcs</h3>
+            <div className={styles.spec_info_container}>
+              <div className={styles.span_container}>
+                <h4>Make:</h4>
+                <span className={styles.spec_info_container_span}>
+                  {boat.make}
+                </span>
+              </div>
+              <div className={styles.span_container}>
+                <h4>Model:</h4>
+                <span className={styles.spec_info_container_span}>
+                  {boat.model}
+                </span>
+              </div>
+              <div className={styles.span_container}>
+                <h4>Length:</h4>
+                <span className={styles.spec_info_container_span}>
+                  {boat.length}
+                </span>
+              </div>
+              <div className={styles.span_container}>
+                <h4>Capacity:</h4>
+                <span className={styles.spec_info_container_span}>
+                  {boat.capacity}
+                </span>
+              </div>
             </div>
           </div>
         </div>
