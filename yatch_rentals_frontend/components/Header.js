@@ -10,15 +10,17 @@ export default function Header() {
         </Link>
       </div>
 
-      <nav>
-        <ul>
-          <li>
-            <Link href="/boats">
-              <a> Boats </a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <div className={styles.header_links}>
+        <nav>
+          <ul>
+            <li>
+              <Link href="/boats">
+                <a> Boats </a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }

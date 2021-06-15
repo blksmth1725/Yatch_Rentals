@@ -38,19 +38,24 @@
   .header {
     flex-direction: column;
     height: auto;
+    padding-bottom: 20px;
+    margin-bottom: -80px;
   }
 
   .header ul {
-    margin: 20px 0;
     flex-direction: column;
     text-align: center;
   }
 
   .header a {
+    display: flex;
     margin-right: 0;
   }
 
   .logo {
     margin: 20px 0;
+  }
+
+  .header_links {
   }
 }
