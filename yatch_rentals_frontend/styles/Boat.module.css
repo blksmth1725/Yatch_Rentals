@@ -98,6 +98,7 @@
   }
 
   .info_container_toplevel {
+    background-color: blueviolet;
     font-size: 25px;
     padding: 40px;
     display: flex;
@@ -109,6 +110,10 @@
 
   .spec_info_container_span {
     font-size: 25px;
+  }
+  .boat_spec_info_container_span {
+    background-color: chartreuse;
+    font-size: 45px;
   }
 
   .rate_container {
