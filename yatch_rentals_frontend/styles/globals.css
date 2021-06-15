@@ -8,6 +8,7 @@
 
 html,
 body {
+  height: auto;
   font-family: "Poppins", sans-serif;
   line-height: 1.8;
 }
@@ -64,4 +65,10 @@ h1 {
 
 .btn-icon svg {
   margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .html {
+    width: auto;
+  }
 }

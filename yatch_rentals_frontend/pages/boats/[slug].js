@@ -12,7 +12,7 @@ export default function Boat({ boat }) {
     <Layout>
       <div className={styles.boat}>
         <div className={styles.header}>
-          <h1>{boat.name}</h1>
+          <h1 className={styles.mobile_title}>{boat.name}</h1>
           <div className={styles.controls}>
             <Link href={`/boats/edit/${boat.id}`}>
               <a>

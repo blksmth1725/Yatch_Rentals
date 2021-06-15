@@ -35,9 +35,15 @@
 }
 
 @media (max-width: 768px) {
+  .logo a {
+    font-size: 45px;
+    color: #70abaf;
+  }
   .header {
     flex-direction: column;
     height: auto;
+    background-color: blue;
+    width: 812px;
     padding-bottom: 20px;
     margin-bottom: -80px;
   }
@@ -54,8 +60,5 @@
 
   .logo {
     margin: 20px 0;
-  }
-
-  .header_links {
   }
 }
