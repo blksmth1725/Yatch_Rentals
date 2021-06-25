@@ -32,6 +32,7 @@
       "model": "Grande 37 METRI",
       "length": "100 ft",
       "description": "A streamlined yacht that seems sculpted in wind, with ample space for life in the open air, to keep the connection with the sea alive.",
+      "rate": "500 p/h",
       "capacity": "25",
       "image": "/images/sample/Azimut_Grande_100.jpeg"
     },
